@@ -1,6 +1,8 @@
 - **Python 3.8 or higher** (Python 3.12 recommended)
 - **Expected path:** `./dataset/jexdataset.jsonl`
 
+https://changtechkuang-ai-search-engine-app-streamlit-qquegi.streamlit.app/
+
 - ### 1. Install Required Dependencies
 
 Install all required Python packages using pip:
