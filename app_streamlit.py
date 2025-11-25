@@ -86,7 +86,8 @@ def search_code(query):
 
 # -------- UI --------
 st.set_page_config(page_title="AI Code Search", page_icon="🔍", layout="wide")
-st.title("🔍 AI Jex 3.0 Snippet")
+st.title("🔍 AI Jex 3.0 Code Snippet Search")
+st.caption("Version 1.0 - Find your code smarter and faster with AI")
 
 query = st.text_input("Search Query", value=st.session_state.get('query', ''), placeholder="Type your question or code search...", key="search_input")
 st.session_state.query = query
