@@ -24,7 +24,8 @@ def load_code_blocks(json_path):
                     code = entry.get("code", entry.get("block", "")).strip()
                     imports = entry.get("imports", [])
                     if imports:
-                        code = f"Imports: {' '.join(imports)}\n\n{code}"
+                        import_lines = "\n".join([f'<%@page import="{imp}"%>' for imp in imports])
+                        code = f"{import_lines}\n\n{code}"
                     if len(code) > 30:
                         docs.append(code)
                         sources.append(name)
