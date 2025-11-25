@@ -1,5 +1,5 @@
 - **Python 3.8 or higher** (Python 3.12 recommended)
-- **pip** (Python package manager)
+- **Expected path:** `./dataset/jexdataset.jsonl`
 
 - ### 1. Install Required Dependencies
 
